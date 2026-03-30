@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-gray-800 antialiased;
+}
+
+#root {
+  @apply min-h-screen;
+}
+
+.ql-toolbar.ql-snow {
+  @apply rounded-t-2xl border-slate-200 bg-white px-3 py-3 shadow-sm;
+}
+
+.ql-toolbar.ql-snow .ql-formats {
+  @apply mr-3 rounded-xl px-2 py-1 transition;
+}
+
+.ql-toolbar.ql-snow button,
+.ql-toolbar.ql-snow .ql-picker {
+  @apply rounded-lg transition hover:bg-slate-100;
+}
+
+.ql-container.ql-snow {
+  @apply rounded-b-2xl border-slate-200 bg-white;
+}
+
+.ql-editor {
+  @apply min-h-[420px] px-6 py-5 text-base leading-7 text-slate-700;
+}
